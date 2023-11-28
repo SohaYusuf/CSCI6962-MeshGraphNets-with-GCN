@@ -11,55 +11,6 @@ def build_mlp(in_size, hidden_size, out_size, lay_norm=True):
     return module
 
 
-class GCNModel(nn.Module):
-    def __init__(self, in_size, hidden_size, out_size, num_layers=1, lay_norm=True):
-        super(GCNModel, self).__init__()
-
-        layers = []
-        
-        # Input layer
-        layers.append(GCNConv(in_size, hidden_size))
-        layers.append(nn.ReLU(inplace=True))
-        
-        # Hidden layers
-        for _ in range(num_layers - 2):
-            layers.append(GCNConv(hidden_size, hidden_size))
-            layers.append(nn.ReLU(inplace=True))
-        
-        # Output layer
-        layers.append(GCNConv(hidden_size, out_size))
-        
-        # Optional layer normalization
-        if lay_norm:
-            layers.append(nn.LayerNorm(normalized_shape=out_size))
-
-        self.model = nn.Sequential(*layers)
-
-    def forward(self, x, edge_index):
-        return self.model(x, edge_index)
-
-# def build_gcn(in_size, hidden_size, out_size, num_layers=1, lay_norm=True):
-#     layers = []
-    
-#     # Input layer
-#     layers.append(GCNConv(in_size, hidden_size))
-#     layers.append(nn.SiLU(inplace=True))
-    
-#     # Hidden layers
-#     for _ in range(num_layers - 2):
-#         layers.append(GCNConv(hidden_size, hidden_size))
-#         layers.append(nn.SiLU(inplace=True))
-    
-#     # Output layer
-#     layers.append(GCNConv(hidden_size, out_size))
-    
-#     # Optional layer normalization
-#     if lay_norm:
-#         layers.append(nn.LayerNorm(normalized_shape=out_size))
-
-#     return nn.Sequential(*layers)
-
-
 def build_gcn(in_size, hidden_size, out_size, num_layers=1, lay_norm=True):
     class GCN(nn.Module):
         def __init__(self):
