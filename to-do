@@ -6,5 +6,5 @@
 6. add MSE for rollouts 
 7. explain encoder inputs 
 8. what is training loss exactly?
-9. report relative error compared velocity norm
+9. report ** relative error ** compared velocity norm
 10. Mention the ** cost **
