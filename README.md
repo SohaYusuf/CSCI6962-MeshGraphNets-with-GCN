@@ -41,4 +41,4 @@ To Test:
 
 
 ## BASELINE RESULTS
-![alt text](https://github.com/SohaYusuf/CSCI6962-Final-Project/assets/60673567/92f6bf36-ad23-4349-8007-6345d725aee8)
+https://github.com/SohaYusuf/CSCI6962-Final-Project/assets/60673567/92f6bf36-ad23-4349-8007-6345d725aee8
