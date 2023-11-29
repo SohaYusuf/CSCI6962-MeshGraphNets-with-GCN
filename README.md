@@ -6,3 +6,22 @@
     -  The second repository we used was a rewrite of MESHGRPAHNETS in PyTorch that similarly produced results for CylinderFlow (https://github.com/echowve/meshGraphNets_pytorch). We modified the model code to replace the processor with a GCN, and also the train.py file to track and calculate the training and validation loss
  
 Installation Instructions for the PyTorch Version of MESHGRAPHNETS:
+  - Initial Installation for torch 1.13 for CUDA 1.17
+     - conda create --name torch113 python=3.8
+     - conda install pytorch==1.13.1 torchvision==0.14.1
+     - torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
+     - pip install torch_geometric
+     - pip install pyg_lib torch_scatter torch_sparse torch_cluster
+     - torch_spline_conv -f https://data.pyg.org/whl/torch-1.13.0+cu117.html
+     - pip install networkx
+  - Additional Installs
+     - pip install h5py==3.6.0 matplotlib==3.4.3 numpy==1.21.1 opencv_python==4.5.4.58 Pillow==9.1.0 tqdm==4.62.3
+   
+To Train: 
+  - Download the Dataset (See Original_meshgraphents README)
+  - python parse_tfrecord.py
+  - python train.py
+
+To Test:
+  - python rollout.py
+  - python render_results.py
