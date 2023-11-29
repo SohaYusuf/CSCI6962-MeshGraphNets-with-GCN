@@ -12,7 +12,8 @@ Modifications made to the PyTorch version of MESHGRAPHNETS:
      - Produced results for our version of the model
   - results/
      - Generated Rollouts to be used for rendering reuslts
-  - 
+  - loss/
+     - Added text files for the training and validation loss, and their respective plots
  
 Installation Instructions for the PyTorch Version of MESHGRAPHNETS:
   - Initial Installation for torch 1.13 for CUDA 1.17
