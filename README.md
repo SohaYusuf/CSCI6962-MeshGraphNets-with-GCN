@@ -52,3 +52,6 @@ Training vs Validation Loss Curves:
 Rollout RMSE Results:
 
 ![eval_base](https://github.com/SohaYusuf/CSCI6962-Final-Project/assets/60673567/ae605832-20e9-426c-8885-fc8ac832b54a)
+
+
+## OUR Results:
