@@ -7,9 +7,11 @@
  
 Modifications made to the PyTorch version of MESHGRAPHNETS:
   - model/model.py
-    - Exchanged the MLPs in the processor, with GCN
+     - Exchanged the MLPs in the processor, with GCN
   - videos/
-    - Produced results for our version of the model
+     - Produced results for our version of the model
+  - results/
+     - Generated Rollouts to be used for rendering reuslts
   - 
  
 Installation Instructions for the PyTorch Version of MESHGRAPHNETS:
