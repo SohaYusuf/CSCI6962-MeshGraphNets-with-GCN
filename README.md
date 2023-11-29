@@ -8,6 +8,9 @@
 Modifications made to the PyTorch version of MESHGRAPHNETS:
   - model/model.py
     - Exchanged the MLPs in the processor, with GCN
+  - videos/
+    - Produced results for our version of the model
+  - 
  
 Installation Instructions for the PyTorch Version of MESHGRAPHNETS:
   - Initial Installation for torch 1.13 for CUDA 1.17
