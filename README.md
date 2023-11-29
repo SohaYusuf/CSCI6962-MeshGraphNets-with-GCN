@@ -46,7 +46,7 @@ https://github.com/SohaYusuf/CSCI6962-Final-Project/assets/60673567/92f6bf36-ad2
 
 Training vs Validation Loss Curves:
 
-!https://github.com/SohaYusuf/CSCI6962-Final-Project/assets/60673567/eef74d43-fdff-4dfe-9841-d2e49632c179
+![https://github.com/SohaYusuf/CSCI6962-Final-Project/assets/60673567/eef74d43-fdff-4dfe-9841-d2e49632c179]
 
 
 
