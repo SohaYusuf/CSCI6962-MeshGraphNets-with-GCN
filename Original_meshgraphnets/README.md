@@ -1,7 +1,9 @@
-These are all the files from the Original MESHGRAPHNETS paper. The code is written in TensorFlow1.
+These are all the files from the Original MESHGRAPHNETS paper (https://github.com/google-deepmind/deepmind-research/tree/master/meshgraphnets). The code is written in TensorFlow1.
 Changes we made to the files:
   - plot_cfd.py
       - Edited the code to be able to save the plot as a gif
+  - run_model.py
+      - Added the ability to better track the training and validation loss during training, and save those to an output file
 
 To reproduce the results as we did in this proect:
   - Install conda with python 3.9
