@@ -5,6 +5,10 @@
     -  We first used the TensorFlow1 code from the orginal MESHGRAPHNETS paper (https://github.com/google-deepmind/deepmind-research/tree/master/meshgraphnets) to reproduce the results for the CylinderFlow Dataset. We edited the run_model.py file to more accurately track the training loss, and validation loss, as well as store these losses in a file. See the Original_meshgraphnets folder for more details about installation and how we reproduced the results.
     -  The second repository we used was a rewrite of MESHGRPAHNETS in PyTorch that similarly produced results for CylinderFlow (https://github.com/echowve/meshGraphNets_pytorch). We modified the model code to replace the processor with a GCN, and also the train.py file to track and calculate the training and validation loss
  
+Modifications made to the PyTorch version of MESHGRAPHNETS:
+  - model/model.py
+    - Exchanged the MLPs in the processor, with GCN
+ 
 Installation Instructions for the PyTorch Version of MESHGRAPHNETS:
   - Initial Installation for torch 1.13 for CUDA 1.17
      - conda create --name torch113 python=3.8
