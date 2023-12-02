@@ -55,4 +55,5 @@ Rollout RMSE Results:
 
 
 ## OUR Results:
-TODO: add in video, loss curves, rollout results here
+
+https://github.com/SohaYusuf/CSCI6962-Final-Project/assets/60673567/f6ff94e0-c0d8-42d0-b3ca-2ebb96ba30a1
