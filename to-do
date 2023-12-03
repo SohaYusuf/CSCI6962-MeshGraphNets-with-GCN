@@ -1,10 +1,21 @@
+FOR PAPER
+1. report ** relative error ** compared velocity norm
+2. Mention the ** cost **
+3. add MSE for rollouts 
+4. explain encoder inputs 
+5. what is training loss/test loss exactly?
+6. Explain difference in equation for encoder
+7. add comparison section in final report
+
+
+
+
+FOR PRESENTATION
+1. Hyperparameter tables fix (Arthi) DONE
+
+
+
+CODE + OTHER
 1. add training loss curve for our model
 2. add validation loss curve for our model
 3. fix the render and add video on github and add images in presentation and report
-4. add comparison section in final report
-5. fix presentation
-6. add MSE for rollouts 
-7. explain encoder inputs 
-8. what is training loss exactly?
-9. report ** relative error ** compared velocity norm
-10. Mention the ** cost **
