@@ -15,7 +15,7 @@ Modifications made to the PyTorch version of MESHGRAPHNETS:
   - loss/
      - Added text files for the training and validation loss, and their respective plots
   - train.py
-     - Modified the code to run for less epochs (resource contraints) an to track training loss as well as validation loss, and save that output to a file
+     - Modified the code to run for less epochs (resource contraints) and to track training loss as well as validation loss, and save that output to a file
  
 Installation Instructions for the PyTorch Version of MESHGRAPHNETS:
   - Initial Installation for torch 1.13 for CUDA 1.17
