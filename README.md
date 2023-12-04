@@ -51,9 +51,20 @@ Training vs Validation Loss Curves:
 
 Rollout RMSE Results:
 
-![eval_base](https://github.com/SohaYusuf/CSCI6962-Final-Project/assets/60673567/ae605832-20e9-426c-8885-fc8ac832b54a)
+![eval_base](https://github.com/SohaYusuf/CSCI6962-Final-Project/assets/60673567/cc287f17-542c-49c0-b71c-ae6503ebb8f6)
 
 
 ## OUR Results:
 
 https://github.com/SohaYusuf/CSCI6962-Final-Project/assets/60673567/f6ff94e0-c0d8-42d0-b3ca-2ebb96ba30a1
+
+
+Training vs Validation Loss Curves:
+
+![train_vs_valid_loss_avg_pytorch](https://github.com/SohaYusuf/CSCI6962-Final-Project/assets/60673567/cd254ebe-8a8b-411b-b356-be5d7d93e518)
+
+
+Rollout RMSE Results:
+
+![eval_o](https://github.com/SohaYusuf/CSCI6962-Final-Project/assets/60673567/d7a37cef-ed2e-43b7-a477-e30b027557ac)
+
